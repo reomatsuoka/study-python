@@ -17,8 +17,8 @@ b=2
 print(a+b)
 
 for i in [1,2,3,4,5]:
-   print(i)
-   print("こんにちは")
+  print(i)
+  print("こんにちは")
 
 for k in range(1,6+1):
   print(k)
