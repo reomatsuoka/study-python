@@ -2,7 +2,7 @@
 #ヒット＆ブロー
 import random
 a = random.randint(0,9)
-print(x)
+print(a)
 
 b = int(input("数を入力して下さい>>"))
 if a == b:
@@ -35,7 +35,7 @@ else:
 #上の式を書き直す
 
   #各桁が数字かどうかの判別する式
-kazuok = True
+  kazuok = True
 for i in range(4):
   if(b[i]<"0") or (b[i]>"9"):
     print("数字ではありません")
@@ -54,6 +54,6 @@ for i in range(4):
 blow = 0
 for j in range(4):
   for i in range(4):
-    if (int(b[j])==a[i] and int(b[j]):
+    if (int(b[j])==a[i]) :
       blow = blow + 1
       break
