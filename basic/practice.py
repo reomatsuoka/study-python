@@ -10,7 +10,7 @@ while True:
     b = input("数を入れてね＞")
     if len(b) != 4:
       print("４桁の数字を入れて下さい")
-  else:
+    else:
       kazuok = True
       for i in range(4):
         if ( b[i] < "0") or ( b[i] > "9"):
