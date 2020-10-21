@@ -3,8 +3,8 @@ print("test")
 print(1+1)
 
 #VScordでは出力されない？
-#import calender
-#print(calender.month(2020,10))
+import calendar
+print(calendar.month(2020,10))
 
 #\newline バックラッシュと改行文字を無視
 #語尾に”\”をつける事で改行できる？
