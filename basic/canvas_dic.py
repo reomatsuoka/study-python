@@ -25,7 +25,7 @@ def move():
         if b["y"] <= 0:
             b["dy"] = +1
     root.after(10, move)
-
+		
 
 root = tk.Tk()
 root.geometry("600x400")
