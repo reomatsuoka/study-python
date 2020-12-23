@@ -28,11 +28,11 @@ class Ball:
 
     def erase(self, canvas):
         canvas.create_oval(self.x - 21, self.y - 21, self.x +
-                           21, self.y + 21, fill="white", width=0)
+                            21, self.y + 21, fill="white", width=0)
 
     def draw(self, canvas):
         canvas.create_oval(self.x - 20, self.y - 20, self.x + 20,
-                           self.y + 20, fill=self.color, width=0)
+                            self.y + 20, fill=self.color, width=0)
 
 
 class Rectangle(Ball):
@@ -48,11 +48,11 @@ class Rectangle(Ball):
 class Triangle(Ball):
     def erase(self, canvas):
         canvas.create_polygon(self.x,self.y - 25, self.x + 25, self.y +
-                              25, self.x - 25,self.y + 25, fill="white", width=0)
+                                25, self.x - 25,self.y + 25, fill="white", width=0)
 
     def draw(self, canvas):
         canvas.create_polygon(self.x ,self.y - 20, self.x + 20, self.y + 20,self.x-20,
-                              self.y + 20, fill=self.color, width=0)
+                                self.y + 20, fill=self.color, width=0)
 
 
 def loop():
